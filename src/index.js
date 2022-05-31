@@ -9,6 +9,8 @@ routes.add("Nav-ServerGameSettings", () =>
 );
 routes.switch("Nav-Generator");
 
+document.getElementById('generate-btn').onclick = () => routes.switch('Nav-ServerGameSettings')
+
 const navBtns = document.querySelectorAll("nav button[data-route]") || [];
 navBtns.forEach((e) => {
   e.onclick = () => routes.switch(e.getAttribute("id"));

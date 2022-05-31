@@ -9,7 +9,7 @@
       "type": "string"
     },
     "CastleHeartDamageMode": {
-      "type": "integer"
+      "type": "string"
     },
     "DeathContainerPermission": {
       "type": "string"
@@ -27,29 +27,29 @@
       "type": "boolean"
     },
     "Death_DurabilityFactorLoss": {
-      "type": "integer"
+      "type": "number"
     },
     "Death_DurabilityLossFactorAsResources": {
-      "type": "integer"
+      "type": "number"
     },
     "BuildCostModifier": {
-      "type": "integer"
+      "type": "number"
     },
     "GarlicAreaStrengthModifier": {
-      "type": "integer"
+      "type": "number"
     },
     "VBloodUnitSettings": {
       "type": "array",
       "items": {}
     },
     "MaterialYieldModifier_Global": {
-      "type": "integer"
+      "type": "number"
     },
     "InventoryStacksModifier": {
-      "type": "integer"
+      "type": "number"
     },
     "RepairCostModifier": {
-      "type": "integer"
+      "type": "number"
     },
     "UnlockedAchievements": {
       "type": "array",
@@ -59,7 +59,7 @@
       "type": "boolean"
     },
     "ServantConvertRateModifier": {
-      "type": "integer"
+      "type": "number"
     },
     "UnlockedResearchs": {
       "type": "array",
@@ -221,91 +221,91 @@
       "type": "boolean"
     },
     "InactivityKillTimeMin": {
-      "type": "integer"
+      "type": "number"
     },
     "InactivityKillTimeMax": {
-      "type": "integer"
+      "type": "number"
     },
     "InactivityKillSafeTimeAddition": {
-      "type": "integer"
+      "type": "number"
     },
     "InactivityKillTimerMaxItemLevel": {
-      "type": "integer"
+      "type": "number"
     },
     "DisableDisconnectedDeadEnabled": {
       "type": "boolean"
     },
     "DisableDisconnectedDeadTimer": {
-      "type": "integer"
+      "type": "number"
     },
     "DropTableModifier_General": {
-      "type": "integer"
+      "type": "number"
     },
     "DropTableModifier_Missions": {
-      "type": "integer"
+      "type": "number"
     },
     "BloodEssenceYieldModifier": {
-      "type": "integer"
+      "type": "number"
     },
     "JournalVBloodSourceUnitMaxDistance": {
-      "type": "integer"
+      "type": "number"
     },
     "PvPVampireRespawnModifier": {
-      "type": "integer"
+      "type": "number"
     },
     "CastleMinimumDistanceInFloors": {
-      "type": "integer"
+      "type": "number"
     },
     "BloodDrainModifier": {
-      "type": "integer"
+      "type": "number"
     },
     "DurabilityDrainModifier": {
-      "type": "integer"
+      "type": "number"
     },
     "HolyAreaStrengthModifier": {
-      "type": "integer"
+      "type": "number"
     },
     "SilverStrengthModifier": {
-      "type": "integer"
+      "type": "number"
     },
     "SunDamageModifier": {
-      "type": "integer"
+      "type": "number"
     },
     "CastleDecayRateModifier": {
-      "type": "integer"
+      "type": "number"
     },
     "CastleBloodEssenceDrainModifier": {
-      "type": "integer"
+      "type": "number"
     },
     "CastleSiegeTimer": {
-      "type": "integer"
+      "type": "number"
     },
     "CastleUnderAttackTimer": {
-      "type": "integer"
+      "type": "number"
     },
     "ShowSiegeWeaponMapIcon": {
       "type": "boolean"
     },
     "RecipeCostModifier": {
-      "type": "integer"
+      "type": "number"
     },
     "CraftRateModifier": {
-      "type": "integer"
+      "type": "number"
     },
     "ResearchCostModifier": {
-      "type": "integer"
+      "type": "number"
     },
     "ResearchTimeModifier": {
-      "type": "integer"
+      "type": "number"
     },
     "RefinementCostModifier": {
-      "type": "integer"
+      "type": "number"
     },
     "RefinementRateModifier": {
-      "type": "integer"
+      "type": "number"
     },
     "DismantleResourceModifier": {
-      "type": "integer"
+      "type": "number"
     }
   },
   "required": [

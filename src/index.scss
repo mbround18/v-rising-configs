@@ -4,6 +4,10 @@ html, body, input, textarea, select, button {
   color: #e8e6e3;
 }
 
+body {
+	padding: 1em 4em;
+}
+
 nav {
 	display: flex;
 	flex-wrap: wrap;

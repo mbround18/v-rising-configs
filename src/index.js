@@ -14,16 +14,16 @@ navBtns.forEach((e) => {
   e.onclick = () => routes.switch(e.getAttribute("id"));
 });
 
-document.querySelector("[data-share]").onclick = () => {
-  const loc = window.location.href;
-  console.log(loc, JSON.stringify(getConfig()));
-  const base = window.btoa(JSON.stringify(getConfig()));
-  console.log(base);
-  const config = encodeURIComponent(base);
-  console.log(config);
-  const url = `${loc}?config=${config}`;
-  console.log(url);
-};
+// document.querySelector("[data-share]").onclick = () => {
+//   const loc = window.location.href;
+//   console.log(loc, JSON.stringify(getConfig()));
+//   const base = window.btoa(JSON.stringify(getConfig()));
+//   console.log(base);
+//   const config = encodeURIComponent(base);
+//   console.log(config);
+//   const url = `${loc}?config=${config}`;
+//   console.log(url);
+// };
 
 document.querySelector("[data-copy]").onclick = () => {
   /* Get the text field */

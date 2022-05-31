@@ -1,0 +1,379 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "GameModeType": {
+      "type": "string"
+    },
+    "CastleDamageMode": {
+      "type": "string"
+    },
+    "CastleHeartDamageMode": {
+      "type": "integer"
+    },
+    "DeathContainerPermission": {
+      "type": "string"
+    },
+    "RelicSpawnType": {
+      "type": "string"
+    },
+    "CanLootEnemyContainers": {
+      "type": "boolean"
+    },
+    "ClanSize": {
+      "type": "integer"
+    },
+    "AnnounceSiegeWeaponSpawn": {
+      "type": "boolean"
+    },
+    "Death_DurabilityFactorLoss": {
+      "type": "integer"
+    },
+    "Death_DurabilityLossFactorAsResources": {
+      "type": "integer"
+    },
+    "BuildCostModifier": {
+      "type": "integer"
+    },
+    "GarlicAreaStrengthModifier": {
+      "type": "integer"
+    },
+    "VBloodUnitSettings": {
+      "type": "array",
+      "items": {}
+    },
+    "MaterialYieldModifier_Global": {
+      "type": "integer"
+    },
+    "InventoryStacksModifier": {
+      "type": "integer"
+    },
+    "RepairCostModifier": {
+      "type": "integer"
+    },
+    "UnlockedAchievements": {
+      "type": "array",
+      "items": {}
+    },
+    "TeleportBoundItems": {
+      "type": "boolean"
+    },
+    "ServantConvertRateModifier": {
+      "type": "integer"
+    },
+    "UnlockedResearchs": {
+      "type": "array",
+      "items": {}
+    },
+    "GameTimeModifiers": {
+      "type": "object"
+    },
+    "VampireStatModifiers": {
+      "type": "object"
+    },
+    "UnitStatModifiers_Global": {
+      "type": "object"
+    },
+    "UnitStatModifiers_VBlood": {
+      "type": "object"
+    },
+    "EquipmentStatModifiers_Global": {
+      "type": "object"
+    },
+    "CastleStatModifiers_Global": {
+      "type": "object",
+      "properties": {
+        "PylonPenalties": {
+          "type": "object",
+          "properties": {
+            "Range1": {
+              "type": "object"
+            },
+            "Range2": {
+              "type": "object"
+            },
+            "Range3": {
+              "type": "object"
+            },
+            "Range4": {
+              "type": "object"
+            },
+            "Range5": {
+              "type": "object"
+            }
+          },
+          "required": [
+            "Range1",
+            "Range2",
+            "Range3",
+            "Range4",
+            "Range5"
+          ]
+        },
+        "FloorPenalties": {
+          "type": "object",
+          "properties": {
+            "Range1": {
+              "type": "object"
+            },
+            "Range2": {
+              "type": "object"
+            },
+            "Range3": {
+              "type": "object"
+            },
+            "Range4": {
+              "type": "object"
+            },
+            "Range5": {
+              "type": "object"
+            }
+          },
+          "required": [
+            "Range1",
+            "Range2",
+            "Range3",
+            "Range4",
+            "Range5"
+          ]
+        },
+        "HeartLimits": {
+          "type": "object",
+          "properties": {
+            "Level1": {
+              "type": "object"
+            },
+            "Level2": {
+              "type": "object"
+            },
+            "Level3": {
+              "type": "object"
+            },
+            "Level4": {
+              "type": "object"
+            }
+          },
+          "required": [
+            "Level1",
+            "Level2",
+            "Level3",
+            "Level4"
+          ]
+        }
+      },
+      "required": [
+        "PylonPenalties",
+        "FloorPenalties",
+        "HeartLimits"
+      ]
+    },
+    "PlayerInteractionSettings": {
+      "type": "object",
+      "properties": {
+        "VSPlayerWeekdayTime": {
+          "type": "object"
+        },
+        "VSPlayerWeekendTime": {
+          "type": "object"
+        },
+        "VSCastleWeekdayTime": {
+          "type": "object"
+        },
+        "VSCastleWeekendTime": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "VSPlayerWeekdayTime",
+        "VSPlayerWeekendTime",
+        "VSCastleWeekdayTime",
+        "VSCastleWeekendTime"
+      ]
+    },
+    "TimeZone": {
+      "type": "string"
+    },
+    "SiegeWeaponHealth": {
+      "type": "string"
+    },
+    "PlayerDamageMode": {
+      "type": "string"
+    },
+    "PvPProtectionMode": {
+      "type": "string"
+    },
+    "BloodBoundEquipment": {
+      "type": "boolean"
+    },
+    "AllowGlobalChat": {
+      "type": "boolean"
+    },
+    "AllWaypointsUnlocked": {
+      "type": "boolean"
+    },
+    "FreeCastleClaim": {
+      "type": "boolean"
+    },
+    "FreeCastleDestroy": {
+      "type": "boolean"
+    },
+    "InactivityKillEnabled": {
+      "type": "boolean"
+    },
+    "InactivityKillTimeMin": {
+      "type": "integer"
+    },
+    "InactivityKillTimeMax": {
+      "type": "integer"
+    },
+    "InactivityKillSafeTimeAddition": {
+      "type": "integer"
+    },
+    "InactivityKillTimerMaxItemLevel": {
+      "type": "integer"
+    },
+    "DisableDisconnectedDeadEnabled": {
+      "type": "boolean"
+    },
+    "DisableDisconnectedDeadTimer": {
+      "type": "integer"
+    },
+    "DropTableModifier_General": {
+      "type": "integer"
+    },
+    "DropTableModifier_Missions": {
+      "type": "integer"
+    },
+    "BloodEssenceYieldModifier": {
+      "type": "integer"
+    },
+    "JournalVBloodSourceUnitMaxDistance": {
+      "type": "integer"
+    },
+    "PvPVampireRespawnModifier": {
+      "type": "integer"
+    },
+    "CastleMinimumDistanceInFloors": {
+      "type": "integer"
+    },
+    "BloodDrainModifier": {
+      "type": "integer"
+    },
+    "DurabilityDrainModifier": {
+      "type": "integer"
+    },
+    "HolyAreaStrengthModifier": {
+      "type": "integer"
+    },
+    "SilverStrengthModifier": {
+      "type": "integer"
+    },
+    "SunDamageModifier": {
+      "type": "integer"
+    },
+    "CastleDecayRateModifier": {
+      "type": "integer"
+    },
+    "CastleBloodEssenceDrainModifier": {
+      "type": "integer"
+    },
+    "CastleSiegeTimer": {
+      "type": "integer"
+    },
+    "CastleUnderAttackTimer": {
+      "type": "integer"
+    },
+    "ShowSiegeWeaponMapIcon": {
+      "type": "boolean"
+    },
+    "RecipeCostModifier": {
+      "type": "integer"
+    },
+    "CraftRateModifier": {
+      "type": "integer"
+    },
+    "ResearchCostModifier": {
+      "type": "integer"
+    },
+    "ResearchTimeModifier": {
+      "type": "integer"
+    },
+    "RefinementCostModifier": {
+      "type": "integer"
+    },
+    "RefinementRateModifier": {
+      "type": "integer"
+    },
+    "DismantleResourceModifier": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "GameModeType",
+    "CastleDamageMode",
+    "CastleHeartDamageMode",
+    "DeathContainerPermission",
+    "RelicSpawnType",
+    "CanLootEnemyContainers",
+    "ClanSize",
+    "AnnounceSiegeWeaponSpawn",
+    "Death_DurabilityFactorLoss",
+    "Death_DurabilityLossFactorAsResources",
+    "BuildCostModifier",
+    "GarlicAreaStrengthModifier",
+    "VBloodUnitSettings",
+    "MaterialYieldModifier_Global",
+    "InventoryStacksModifier",
+    "RepairCostModifier",
+    "UnlockedAchievements",
+    "TeleportBoundItems",
+    "ServantConvertRateModifier",
+    "UnlockedResearchs",
+    "GameTimeModifiers",
+    "VampireStatModifiers",
+    "UnitStatModifiers_Global",
+    "UnitStatModifiers_VBlood",
+    "EquipmentStatModifiers_Global",
+    "CastleStatModifiers_Global",
+    "PlayerInteractionSettings",
+    "TimeZone",
+    "SiegeWeaponHealth",
+    "PlayerDamageMode",
+    "PvPProtectionMode",
+    "BloodBoundEquipment",
+    "AllowGlobalChat",
+    "AllWaypointsUnlocked",
+    "FreeCastleClaim",
+    "FreeCastleDestroy",
+    "InactivityKillEnabled",
+    "InactivityKillTimeMin",
+    "InactivityKillTimeMax",
+    "InactivityKillSafeTimeAddition",
+    "InactivityKillTimerMaxItemLevel",
+    "DisableDisconnectedDeadEnabled",
+    "DisableDisconnectedDeadTimer",
+    "DropTableModifier_General",
+    "DropTableModifier_Missions",
+    "BloodEssenceYieldModifier",
+    "JournalVBloodSourceUnitMaxDistance",
+    "PvPVampireRespawnModifier",
+    "CastleMinimumDistanceInFloors",
+    "BloodDrainModifier",
+    "DurabilityDrainModifier",
+    "HolyAreaStrengthModifier",
+    "SilverStrengthModifier",
+    "SunDamageModifier",
+    "CastleDecayRateModifier",
+    "CastleBloodEssenceDrainModifier",
+    "CastleSiegeTimer",
+    "CastleUnderAttackTimer",
+    "ShowSiegeWeaponMapIcon",
+    "RecipeCostModifier",
+    "CraftRateModifier",
+    "ResearchCostModifier",
+    "ResearchTimeModifier",
+    "RefinementCostModifier",
+    "RefinementRateModifier",
+    "DismantleResourceModifier"
+  ]
+}

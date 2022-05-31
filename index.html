@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta Data -->
+        <meta charset="utf-8">
+        <meta name="title" content="V-Rising Server Config Generator">
+        <meta name="description" content="Generate V-Rising server configuration">
+        <meta name="keywords" content="v-rising, json, server, config, generator, windows, gaming, steam, vampire, easy of use, easy, accessibility">
+        <meta name="robots" content="index, follow">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="language" content="English">
+        <meta name="author" content="mbround18">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://v-rising.gamerdrop.zone/">
+        <meta property="og:title" content="V-Rising Server Config Generator">
+        <meta property="og:description" content="Generate V-Rising server configuration">
+        <meta property="og:image" content="./assets/V_Rising_Throne_Promo_JPG-674105950.png">
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://v-rising.gamerdrop.zone/">
+        <meta property="twitter:title" content="V-Rising Server Config Generator">
+        <meta property="twitter:description" content="Generate V-Rising server configuration">
+        <meta property="twitter:image" content="./assets/V_Rising_Throne_Promo_JPG-674105950.png">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="./assets/icon.png">
+
+        <!-- Scripts -->
+        <script type="module" src="./src/index.js"></script>
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="./src/index.scss">
+
+    </head>
+    <body>
+        <h1>
+            V-Rising Server Config Generator
+        </h1>
+        <hr>
+        <nav>
+            <button data-route id="Nav-Generator" data-active>Generator</button>
+            <button data-route id="Nav-ServerGameSettings">ServerGameSettings.json</button>
+            <button data-share>Share</button>
+        </nav>
+        <hr>
+        <div data-nav-id="Nav-Generator">
+            <form id="config" name="config">
+
+            </form>
+            <hr>
+            <button id="generate-btn">Generate</button>
+        </div>
+        <div data-nav-id="Nav-ServerGameSettings">
+            <button data-copy>Copy to Clipboard</button>
+            <pre>
+                <code id="json-output" class="language-json">
+                </code>
+            </pre>
+        </div>
+    </body>
+</html>

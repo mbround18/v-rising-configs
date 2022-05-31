@@ -1,0 +1,75 @@
+@import 'highlight.js/scss/github-dark.scss';
+
+html, body, input, textarea, select, button {
+  color: #e8e6e3;
+}
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 1rem;
+}
+
+html {
+  color-scheme: dark !important;
+}
+
+* {
+	font-family:OpenDyslexic !important;
+	scrollbar-color: #454a4d #202324;
+
+}
+
+.selected {
+	background-color: rgb(95, 153, 177);
+}
+
+fieldset {
+	label {
+		display: inline;
+		padding-right: 0.5em;
+		margin-right: 0.5em;
+		border-right: 0.1em solid #000;
+		border-bottom: 0.1em solid #000;
+	}
+	.range-container {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	.range-options {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		justify-content: space-between;
+		div {
+			border-radius: .5em;
+			padding: .2em;
+		}
+	}
+}
+
+button {
+	padding: .2em 1em .2em 1em;
+	#generator-btn {
+		width: 50%; 
+	}
+	background-color: rgb(163, 30, 163);
+	border-radius: .5em;
+}
+ 
+code {
+	background-color: #454a4d;
+	width: 90%;
+	border-radius: 1em;
+	padding-top: 1em;
+	&:first-child {
+		position: absolute;
+		left: 20px;
+	}
+	&:last-child {
+		position: absolute;
+		left: 20px;
+	}
+}

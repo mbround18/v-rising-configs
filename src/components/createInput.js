@@ -62,7 +62,8 @@ export default /**
     div.querySelector("input").setAttribute("disabled", "disabled");
   }
   div.querySelector("input").setAttribute("id", id);
-  div.querySelector("input").onchange = (e) => div.querySelector("input").setAttribute('value', e.target.value)
-  
+  div.querySelector("input").onchange = (e) =>
+    div.querySelector("input").setAttribute("value", e.target.value);
+
   return div;
 };

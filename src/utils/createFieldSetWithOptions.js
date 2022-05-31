@@ -41,10 +41,9 @@ function createFieldSetWithOptions(id, options, config) {
 
   const optionsKeys = Object.keys(options);
 
-  if (optionsKeys.includes('TRUE') && optionsKeys.includes('FALSE')) {
-    rangeInput.setAttribute('data-type', 'boolean');
+  if (optionsKeys.includes("TRUE") && optionsKeys.includes("FALSE")) {
+    rangeInput.setAttribute("data-type", "boolean");
   }
-
 
   if (config?.disabled) {
     rangeInput.setAttribute("disabled", "disabled");
@@ -69,7 +68,7 @@ function createFieldSetWithOptions(id, options, config) {
     document.getElementById(previousOption).removeAttribute("class");
 
     // Set Range Input
-    rangeInput.setAttribute("value", current);  
+    rangeInput.setAttribute("value", current);
     rangeInput.setAttribute("data-prev-value", current);
   };
   // Create Descriptions

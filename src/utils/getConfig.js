@@ -10,30 +10,41 @@ export default () => {
     .forEach((element) => {
       const id = element.getAttribute("id");
       const value = element.getAttribute("value");
-      const fieldType = element.getAttribute("data-type");              
+      const isBoolean = element.getAttribute("data-type") === "boolean";
 
-      if (fieldType === "boolean") {
-        config[id] = value === "TRUE";
-      } else if (multiOptionsKeys.includes(id)) {
-        const potentialValues = Object.keys(multiOptions[id])
-        config[id] = potentialValues[value];
+      if (multiOptionsKeys.includes(id) || isBoolean) {
+        const potentialValues = Object.keys(
+          multiOptions?.[id] || {
+            TRUE: true,
+            FALSE: false,
+          }
+        );
+        const potentialValue = potentialValues[value];
+        if (["TRUE", "FALSE"].includes(potentialValue)) {
+          config[id] = potentialValue === "TRUE";
+        } else {
+          config[id] = potentialValue;
+        }
       } else {
-        console.log('is number', value)
+        console.log("is number", value);
         try {
           config[id] = parseFloat(value);
         } catch {
-          console.log('failed to parse', value)
+          console.log("failed to parse", value);
           config[id] = value;
         }
       }
-      
     });
-  
+
   // Object.keys(config).forEach((key) => {
   //   if (multiOptions[key]) {
   //     config[key] = Object.keys(multiOptions[key])[config[key]];
   //   }
   // });
-  
-  return { "$schema": `${window.location.href}schema.json`,  ...baseConfig, ...config };
+
+  return {
+    $schema: `${window.location.href}schema.json`,
+    ...baseConfig,
+    ...config,
+  };
 };

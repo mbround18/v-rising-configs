@@ -69,6 +69,7 @@ function createFieldSetWithOptions(id, options, config) {
     document.getElementById(previousOption).removeAttribute("class");
 
     // Set Range Input
+    rangeInput.setAttribute("value", current);
     rangeInput.setAttribute("data-prev-value", current);
   };
   // Create Descriptions

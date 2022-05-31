@@ -6,5 +6,6 @@ export function init() {
     JSON.stringify(getConfig(), null, 4),
     { language: "json" }
   );
+  console.log('loaded serverGameSettings.js');
   document.getElementById("json-output").innerHTML = htmlOut;
 }

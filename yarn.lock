@@ -1774,18 +1774,18 @@ __metadata:
     sass: 1.52.3
     tailwindcss: 3.1.4
     vite: 2.9.12
-    vite-plugin-fonts: 0.4.0
+    vite-plugin-fonts: 0.6.0
   languageName: unknown
   linkType: soft
 
-"vite-plugin-fonts@npm:0.4.0":
-  version: 0.4.0
-  resolution: "vite-plugin-fonts@npm:0.4.0"
+"vite-plugin-fonts@npm:0.6.0":
+  version: 0.6.0
+  resolution: "vite-plugin-fonts@npm:0.6.0"
   dependencies:
     fast-glob: ^3.2.11
   peerDependencies:
-    vite: ^2.0.0
-  checksum: 486463b95fae96728fc72bb6b2a7699955fe23ca61d4ec9f348e2fe07625d42f76afc27fdce726002cf8c8731d3f6790f7a53b51e92a10a065f4010bb96785a5
+    vite: ^2.0.0 || ^3.0.0
+  checksum: d850eff20fa9235e06de64dbd468c37fb05fb1fdd148a6a188d4298b91b45650f7d1c8330a41d3553f03223a15c75a2a0ac6403e031b81b249d0928d1ddbb781
   languageName: node
   linkType: hard
 

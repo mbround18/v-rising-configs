@@ -12,7 +12,7 @@
   "devDependencies": {
     "autoprefixer": "10.4.11",
     "postcss": "8.4.14",
-    "sass": "1.54.3",
+    "sass": "1.54.9",
     "tailwindcss": "3.1.8",
     "vite": "3.1.2",
     "vite-plugin-fonts": "0.6.0"

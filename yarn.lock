@@ -1637,16 +1637,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:1.58.3":
-  version: 1.58.3
-  resolution: "sass@npm:1.58.3"
+"sass@npm:1.59.0":
+  version: 1.59.0
+  resolution: "sass@npm:1.59.0"
   dependencies:
     chokidar: ">=3.0.0 <4.0.0"
     immutable: ^4.0.0
     source-map-js: ">=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: 35a2b98c037ef80fdc93c9b0be846e6ccc7d75596351a37ee79c397e66666d0a754c52c4696e746c0aff32327471e185343ca349e998a58340411adc9d0489a5
+  checksum: f3ab8c06115731a18d548972db9d1629df908e4f9b1c126f41ba4d5a38cf9f56cdb8a1f6003cdece18f6d87c2ec425c09c9e9329478aab2185f6c03af85da015
   languageName: node
   linkType: hard
 
@@ -1861,7 +1861,7 @@ __metadata:
     highlight.js: ^11.5.1
     lodash: ^4.17.21
     postcss: 8.4.21
-    sass: 1.58.3
+    sass: 1.59.0
     tailwindcss: 3.2.7
     vite: 4.1.4
     vite-plugin-fonts: 0.7.0

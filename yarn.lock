@@ -1242,6 +1242,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nanoid@npm:^3.3.6":
+  version: 3.3.6
+  resolution: "nanoid@npm:3.3.6"
+  bin:
+    nanoid: bin/nanoid.cjs
+  checksum: 7d0eda657002738aa5206107bd0580aead6c95c460ef1bdd0b1a87a9c7ae6277ac2e9b945306aaa5b32c6dcb7feaf462d0f552e7f8b5718abfc6ead5c94a71b3
+  languageName: node
+  linkType: hard
+
 "negotiator@npm:^0.6.3":
   version: 0.6.3
   resolution: "negotiator@npm:0.6.3"
@@ -1467,7 +1476,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.21, postcss@npm:^8.0.9, postcss@npm:^8.4.21":
+"postcss@npm:8.4.22":
+  version: 8.4.22
+  resolution: "postcss@npm:8.4.22"
+  dependencies:
+    nanoid: ^3.3.6
+    picocolors: ^1.0.0
+    source-map-js: ^1.0.2
+  checksum: 7473dfb7ac5b4cb03576c39d687d7fc02c826ab08af97df15b5d3970662532d44a18a0994f392a9c3658ee17c292e7a55990e586b90ca0afcc9f36df13e07029
+  languageName: node
+  linkType: hard
+
+"postcss@npm:^8.0.9, postcss@npm:^8.4.21":
   version: 8.4.21
   resolution: "postcss@npm:8.4.21"
   dependencies:
@@ -1918,7 +1938,7 @@ __metadata:
     autoprefixer: 10.4.14
     highlight.js: ^11.5.1
     lodash: ^4.17.21
-    postcss: 8.4.21
+    postcss: 8.4.22
     sass: 1.62.0
     tailwindcss: 3.3.1
     vite: 4.2.1

@@ -1704,16 +1704,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:1.64.2":
-  version: 1.64.2
-  resolution: "sass@npm:1.64.2"
+"sass@npm:1.65.0":
+  version: 1.65.0
+  resolution: "sass@npm:1.65.0"
   dependencies:
     chokidar: ">=3.0.0 <4.0.0"
     immutable: ^4.0.0
     source-map-js: ">=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: 43a5c9b9b3b6ba27feb5c45eba90edc437b15a30fd443f5d2623bbd59fe4a922f2a6a9990296c6a6c2b5bce7f401922c5049357415f50b745952c2d478bc5526
+  checksum: 61d3ff52cbddb0bda3ea6624b2f63cb3bec910a5b1142708c0497238f06e09cb734a8340db385f31aa84fc1ac8f84169b6e4c2b5d6cedd72d087643fbd031ecf
   languageName: node
   linkType: hard
 
@@ -1968,7 +1968,7 @@ __metadata:
     highlight.js: ^11.5.1
     lodash: ^4.17.21
     postcss: 8.4.27
-    sass: 1.64.2
+    sass: 1.65.0
     tailwindcss: 3.3.3
     vite: 4.4.9
     vite-plugin-fonts: 0.7.0

@@ -14,7 +14,7 @@
     "postcss": "8.4.32",
     "sass": "1.69.5",
     "tailwindcss": "3.3.6",
-    "vite": "5.0.7",
+    "vite": "5.0.8",
     "vite-plugin-fonts": "0.7.0"
   },
   "dependencies": {

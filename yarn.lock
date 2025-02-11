@@ -1504,7 +1504,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.5.1, postcss@npm:^8.5.1":
+"postcss@npm:8.5.2":
+  version: 8.5.2
+  resolution: "postcss@npm:8.5.2"
+  dependencies:
+    nanoid: "npm:^3.3.8"
+    picocolors: "npm:^1.1.1"
+    source-map-js: "npm:^1.2.1"
+  checksum: 10c0/3044d49bc725029ab62292e8bf9849741251b95f3b754e191bf8b4025414d40ec3b4ac05c5a563d4b50060b5c8e96683eb4d783d8d8fa3867eb7b763cbe66127
+  languageName: node
+  linkType: hard
+
+"postcss@npm:^8.5.1":
   version: 8.5.1
   resolution: "postcss@npm:8.5.1"
   dependencies:
@@ -1875,7 +1886,7 @@ __metadata:
     autoprefixer: "npm:10.4.20"
     highlight.js: "npm:^11.5.1"
     lodash: "npm:^4.17.21"
-    postcss: "npm:8.5.1"
+    postcss: "npm:8.5.2"
     sass: "npm:1.84.0"
     tailwindcss: "npm:4.0.5"
     vite: "npm:6.1.0"

@@ -13,7 +13,7 @@
     "autoprefixer": "10.5.0",
     "postcss": "8.5.10",
     "sass": "1.99.0",
-    "tailwindcss": "4.2.3",
+    "tailwindcss": "4.2.4",
     "vite": "8.0.0",
     "vite-plugin-fonts": "0.7.0"
   },
